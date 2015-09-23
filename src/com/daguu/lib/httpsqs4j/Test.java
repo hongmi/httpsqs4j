@@ -13,7 +13,7 @@ package com.daguu.lib.httpsqs4j;
  */
 public class Test {
 	
-	public static void man(String[] args) {
+	public static void main(String[] args) {
 		try {
 			Httpsqs4j.setConnectionInfo("192.168.56.101", 1218, "UTF-8");
 			HttpsqsClient client = Httpsqs4j.createNewClient();
